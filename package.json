@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "pre-commit": "lint-staged",
-    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0" ,
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
     "start": "node builder.js",
     "build": "esbuild src/index.tsx --minify --format=cjs --outdir=public --sourcemap --bundle"
   },
