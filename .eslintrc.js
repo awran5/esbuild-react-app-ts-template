@@ -14,11 +14,13 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/extensions': [
       'error',
       'always',
       {
+        js: 'never',
+        jsx: 'never',
         ts: 'never',
         tsx: 'never'
       }
