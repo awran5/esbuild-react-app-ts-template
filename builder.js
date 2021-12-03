@@ -45,7 +45,7 @@ const buildParams = {
   const builder = await build(buildParams)
 
   if (isDev) {
-    watch('src/**/*.{ts,tsx}', { ignoreInitial: true }).on('all', () => {
+    watch('src/**/*', { ignoreInitial: true }).on('all', () => {
       builder.rebuild()
     })
 
