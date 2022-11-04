@@ -18,15 +18,15 @@
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
     "@types/live-server": "^1.2.1",
-    "@types/node": "^18.11.8",
+    "@types/node": "^18.11.9",
     "@types/postcss-preset-env": "^7.7.0",
-    "@types/react": "^18.0.24",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "autoprefixer": "^10.4.13",
     "chokidar": "^3.5.3",
-    "esbuild": "^0.15.12",
+    "esbuild": "^0.15.13",
     "esbuild-css-modules-plugin": "^2.6.2",
     "esbuild-sass-plugin": "^2.4.0",
     "eslint": "^8.26.0",
@@ -54,5 +54,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "overrides": {
+    "chokidar": "^3.5.3"
   }
 }
