@@ -22,6 +22,7 @@
 - build: update React 18
 - build: update dependencies
 - refactor: rename `dist` folder to `build`
+- refactor: switch to npm instead of yarn
 
 ### License
 
